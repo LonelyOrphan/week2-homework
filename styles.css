@@ -1,0 +1,31 @@
+h1, h2 {
+    text-align: center;
+}
+
+.dev-photo {
+        display: block;
+        margin: auto;
+        width: 50%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.nav-list-item {
+    text-decoration: none;
+}
+
+.my-work-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.app {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 3px;
+}
