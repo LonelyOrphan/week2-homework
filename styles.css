@@ -6,32 +6,66 @@ h1, h2 {
         display: block;
         margin: auto;
         width: 50%;
+        max-width: 200px;
+}
+
+/* Nav Elements */
+
+nav {
+    /* width: 75%;
+    margin: auto; */
 }
 
 .nav-list {
     display: flex;
-    justify-content: space-evenly;
-    text-decoration: none;
+    justify-content: center;
+    list-style: none;
 }
 
 .nav-list-item {
-    text-decoration: none;
+    margin: 30px;
+    border: 1px dashed black;
+    border-radius: 3px;
 }
 
+.nav-list-link {
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* My Work Section */
+
 .my-work-container {
+    width: 75%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .app {
-    width: 200px;
-    height: 200px;
-    background-color: black;
+    width: 45%;
+    height: 250px;
+    margin: 20px;
 }
 
 .app1 {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: black;
     border: 3px;
 }
+
+.app2 {
+    background-color: red;
+}
+
+.app3 {
+    background-color: blue;
+}
+
+/* About Me Section */
+
+
+
+/* Contact Section */
