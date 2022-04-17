@@ -1,5 +1,28 @@
-h1, h2 {
+:root {
+    --light: rgb(203, 231, 229);
+    --dark: rgb(36, 6, 45);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--light);
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--light);
+}
+
+h3 {
+    font-size: 2rem;
+    color: var(--light);
 }
 
 .dev-photo {
@@ -23,14 +46,17 @@ nav {
 }
 
 .nav-list-item {
-    margin: 30px;
+    margin: 20px;
     border: 1px dashed black;
     border-radius: 3px;
 }
 
 .nav-list-link {
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
     margin: 20px;
+    color: var(--light);
 }
 
 /* My Work Section */
@@ -47,13 +73,14 @@ nav {
     width: 45%;
     height: 250px;
     margin: 20px;
+    position: relative;
+    border: 3px solid var(--light);
 }
 
 .app1 {
     width: 100%;
     height: 300px;
-    background-color: black;
-    border: 3px;
+    background-image: url("./assets/app1-horiseon-marketing.jpg");
 }
 
 .app2 {
@@ -62,6 +89,15 @@ nav {
 
 .app3 {
     background-color: blue;
+}
+
+.app-title {
+    border: 3px 3px 0 0 solid var(--light);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    background: rgba(36, 6, 45, 0.7)
 }
 
 /* About Me Section */
