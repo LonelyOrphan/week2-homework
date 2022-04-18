@@ -1,6 +1,6 @@
 :root {
-    --light: rgb(203, 231, 229);
-    --dark: rgb(36, 6, 45);
+    --light: rgb(255, 240, 234);
+    --dark: rgb(2, 41, 52);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 10px;
@@ -18,10 +18,17 @@ h1 {
 h2 {
     font-size: 3rem;
     color: var(--light);
+    width: 50%;
+    margin: auto;
 }
 
 h3 {
     font-size: 2rem;
+    color: var(--light);
+}
+
+p {
+    font-size: 1.6rem;
     color: var(--light);
 }
 
@@ -30,13 +37,14 @@ h3 {
         margin: auto;
         width: 50%;
         max-width: 200px;
+        border-radius: 100%;
+        border: var(--light) 2px solid;
 }
 
 /* Nav Elements */
 
 nav {
-    /* width: 75%;
-    margin: auto; */
+    margin-bottom: 50px;
 }
 
 .nav-list {
@@ -47,7 +55,7 @@ nav {
 
 .nav-list-item {
     margin: 20px;
-    border: 1px dashed black;
+    border: 1px dashed var(--light);
     border-radius: 3px;
 }
 
@@ -55,6 +63,7 @@ nav {
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
+    font-weight: bold;
     margin: 20px;
     color: var(--light);
 }
@@ -89,6 +98,12 @@ nav {
 
 .app3 {
     background-color: blue;
+}
+
+.app-link {
+    display: block;
+    height: 100%;
+    color: transparent;
 }
 
 .app-title {
