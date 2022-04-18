@@ -4,7 +4,7 @@
     --light: #95D1CC;
     --very-light: #FAFFAF;
     
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 10px;
 }
@@ -14,19 +14,25 @@ html {
 }
 
 body {
+    background-color: var(--light);
+}
+
+.header {
     background-color: var(--dark);
+    margin: 0;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--very-light);
+    margin-right: auto;
+    margin-left: 20px;
 }
 
 h2 {
     font-size: 3rem;
     color: var(--very-light);
     width: 50%;
-    margin: auto;
 }
 
 h3 {
@@ -39,38 +45,37 @@ p {
     color: var(--very-light);
 }
 
-.dev-photo {
-        display: block;
-        margin: auto;
-        width: 50%;
-        max-width: 200px;
-        border-radius: 100%;
-        border: var(--light) 2px solid;
-}
-
 /* Nav Elements */
 
 nav {
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 50px 10px;
+}
+
+.dev-photo {
+    max-width: 100px;
+    border-radius: 100%;
+    border: var(--medium) 2px solid;
+    margin: 5px;
 }
 
 .nav-list {
-    display: flex;
-    justify-content: center;
     list-style: none;
 }
 
 .nav-list-item {
-    margin: 20px;
-    border: 1px dashed var(--medium);
+    display: inline-flex;
+    border-bottom: 3px solid var(--light);
     border-radius: 3px;
+    margin: 10px;
 }
 
 .nav-list-link {
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
-    padding: 20px;
     color: var(--very-light);
 }
 
