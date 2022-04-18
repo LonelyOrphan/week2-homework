@@ -3,9 +3,7 @@
     --medium: #5584AC;
     --light: #95D1CC;
     --very-light: #FAFFAF;
-    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
     font-size: 10px;
 }
 
@@ -30,9 +28,9 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
-    color: var(--very-light);
-    width: 50%;
+    font-size: 2.5rem;
+    color: var(--dark);
+    text-align: right;
 }
 
 h3 {
@@ -42,16 +40,28 @@ h3 {
 
 p {
     font-size: 1.6rem;
-    color: var(--very-light);
+    color: var(--dark);
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.section-heading {
+    min-width:20%;
+    max-width:20%;
+    padding: 20px;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
 }
 
 /* Nav Elements */
 
 nav {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0 50px 10px;
+    margin: 10px 10px 50px 10px;
+    width: 100%;
 }
 
 .dev-photo {
@@ -79,14 +89,25 @@ nav {
     color: var(--very-light);
 }
 
+/* About Me Section */
+
+.about-me-text {
+    display: inline-block;
+    border-left: 3px solid var(--dark);
+    max-width: 50%;
+    margin: 50px 0;
+    padding: 0 20px;
+}
+
 /* My Work Section */
 
 .my-work-container {
     width: 75%;
     margin: auto;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-left: 3px solid var(--dark);
 }
 
 .app {
@@ -124,8 +145,6 @@ nav {
     padding: 5px;
     background: rgba(85, 132, 172, 0.8)
 }
-
-/* About Me Section */
 
 
 
