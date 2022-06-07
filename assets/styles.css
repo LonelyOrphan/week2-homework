@@ -148,5 +148,8 @@ nav {
     background: rgba(85, 132, 172, 0.8)
 }
 
-
-
+@media only screen and (max-width: 768px) {
+    .my-work-container {
+        /* flex-direction: column; */
+    }
+}
