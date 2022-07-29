@@ -1,0 +1,41 @@
+nav,
+footer {
+  background-color: #554e64;
+  height: 80px;
+  font-family: "PT Mono", monospace;
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: #2a2632;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: #65ca69;
+  font-family: "Della Respira", serif;
+  font-size: 5rem;
+}
+
+.main-text {
+  color: #d0bfff;
+  font-family: "PT Mono", monospace;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0em;
+}
+
+.my-work {
+  color: #f4ae45;
+}
