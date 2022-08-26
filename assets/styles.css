@@ -87,6 +87,15 @@ ul {
   background-color: #655c78;
 }
 
+.modal-text {
+  font-size: 1.2rem;
+  font-family: "PT Mono", monospace;
+}
+
+.modal-text a {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 3rem;
