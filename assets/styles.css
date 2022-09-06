@@ -17,8 +17,13 @@ footer {
   color: #65ca69;
 }
 
+.nav-link-h:active {
+  color: #65ca69;
+}
+
 body {
   background-color: #2a2632;
+  height: 100%;
 }
 
 .footer {
@@ -81,6 +86,11 @@ ul {
 .card-link:hover {
   box-shadow: inset 300px 0 0 0 #f4ae45;
   color: white;
+}
+
+iframe {
+  height: 1000px;
+  width: 100%;
 }
 
 .modal-color {

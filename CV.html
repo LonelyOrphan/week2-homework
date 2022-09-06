@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="./assets/styles.css" />
     <title>Natasha Sunita Portfolio</title>
   </head>
+
   <body>
     <header class="header">
+        <!-- NavBar -->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <button
@@ -34,41 +36,23 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-5">
                 <a class="nav-link nav-link-h" aria-current="page" href="./my-work.html">My Work</a>
               </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link nav-link-h" aria-current="page" href="./CV.html">CV</a>
-              </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item">
                 <a class="nav-link nav-link-h" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</a>
               </li>
           </div>
         </div>
       </nav>
-      <div>
-        <h1 class="p-3">Natasha Sunita</h1>
-    </div>
-    </header>
-    <main>
-        <div class="main-text p-3">
-            <p>Full-stack web development student at the University of Birmingham
-            </p>
-            <p>Learning the following technologies:
-            </p>
-            <ul class="pt-5">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Web APIs</li>
-                <li>Node JS</li>
-                <li>Express.js</li>
-                <li>SQL / MongoDB</li>
-                <li>React</li>
-                <li>ORM (Sequelize) / ODM (Mongoose)</li>
-            </ul>
-        </div>
+      <!-- End of navbar -->
 
+    <main>
+       <!-- CV Object -->
+       <iframe src="http://africau.edu/images/default/sample.pdf"></iframe>
+        <!-- End of CV Object -->
+
+    
         <!-- Contact Me Modal -->
         <div class="modal fade" id="contactModal" tabindex="-1">
           <div class="modal-dialog">
@@ -90,9 +74,10 @@
             </div>
           </div>
         </div>
+        <!-- End of Modal -->
     </main>
 
-
+    <!-- Footer -->
     <footer class="footer">
       <div>
         <p>
@@ -102,6 +87,7 @@
         </p>
       </div>
     </footer>
+    <!-- End of footer -->
 
     <!-- JavaScript Bundle with Popper -->
     <script
