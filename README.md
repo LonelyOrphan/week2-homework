@@ -2,4 +2,4 @@ This webite is a portfolio that showcases my work and has links to apps that I h
 
 Site URL: https://lonelyorphan.github.io/portfolio/
 
-Screenshot: assets/portfolio_screenshot.jpg
+![Screenshot](assets/portfolio_screenshot.jpg)
