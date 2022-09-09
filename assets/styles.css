@@ -1,9 +1,13 @@
+html {
+  font-size: 10px;
+}
+
 nav,
 footer {
   background-color: #554e64;
   height: 80px;
   font-family: "PT Mono", monospace;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .nav-link-h,
@@ -24,6 +28,7 @@ footer {
 body {
   background-color: #2a2632;
   height: 100%;
+  padding-bottom: 100px;
 }
 
 .footer {
@@ -56,7 +61,7 @@ h1 {
 .main-text {
   color: #d0bfff;
   font-family: "PT Mono", monospace;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 3rem;
 }
 
@@ -119,7 +124,7 @@ iframe {
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   h1 {
     font-size: 3rem;
     margin: 1rem;
@@ -128,5 +133,13 @@ iframe {
   .main-text {
     font-size: 1.3rem;
     margin: 1rem;
+  }
+
+  .nav-link-h,
+  .nav-link-w,
+  .nav-link-h:focus,
+  .nav-link-w:focus {
+    color: black;
+    background-color: white;
   }
 }
